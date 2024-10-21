@@ -1,3 +1,4 @@
+
 import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuariosPorRede() {
@@ -13,7 +14,7 @@ async function quantidadeUsuariosPorRede() {
             y: quantidadeDeUsuarios, 
             type: 'bar',
             marker: {
-                color: getCSS('--primary-color')
+                color: getCSS('--secondary-color')
             }
         }
     ]
